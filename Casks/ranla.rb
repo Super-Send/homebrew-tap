@@ -2,8 +2,7 @@ cask "ranla" do
   version "0.1.1"
   sha256 "208c7a161c3b7b8ba685dc90b3827404b89429ba9e75381a27eab002e6680afb"
 
-  url "https://github.com/Super-Send/ranla-desktop-releases/releases/download/v#{version}/Ranla-#{version}-arm64.dmg",
-      verified: "github.com/Super-Send/ranla-desktop-releases/"
+  url "https://github.com/Super-Send/ranla-desktop-releases/releases/download/v#{version}/Ranla-#{version}-arm64.dmg"
   name "Ranla"
   desc "AI growth engineer that runs your marketing"
   homepage "https://ranla.ai/"
