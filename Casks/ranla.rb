@@ -1,8 +1,8 @@
 cask "ranla" do
-  version "0.1.1"
-  sha256 "208c7a161c3b7b8ba685dc90b3827404b89429ba9e75381a27eab002e6680afb"
+  version "0.2.0"
+  sha256 "3b9473b3da784f06c84ef26234b028432b2a62e14815cd7d97beb0db69a82aa7"
 
-  url "https://github.com/Super-Send/ranla-desktop-releases/releases/download/v#{version}/Ranla-#{version}-arm64.dmg"
+  url "https://github.com/Super-Send/ranla-desktop-releases/releases/download/v#{version}/Ranla-#{version}-universal.dmg"
   name "Ranla"
   desc "AI growth engineer that runs your marketing"
   homepage "https://ranla.ai/"
@@ -13,7 +13,6 @@ cask "ranla" do
   end
 
   auto_updates true
-  depends_on arch: :arm64
   depends_on macos: :monterey
 
   app "Ranla.app"
