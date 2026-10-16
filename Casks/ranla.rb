@@ -1,6 +1,6 @@
 cask "ranla" do
-  version "0.9.0"
-  sha256 "ed6db2176ae0e23aa7858405def40607fb3b5184d341827b7ed87ccf66e7e94c"
+  version "0.9.1"
+  sha256 "176c90c6cf96628f957b4ad20239ffef2c0acd99814c99e6703a2c7f51f9bf70"
 
   url "https://github.com/Super-Send/ranla-desktop-releases/releases/download/v#{version}/Ranla-#{version}-universal.dmg"
   name "Ranla"
